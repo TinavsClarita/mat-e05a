@@ -1,0 +1,140 @@
+<!--1. Change for the first Element the font-size. font-family, font-style and change it to uppercase.
+  2. Change the Element of "erstes-p" the text-decoration, the font-size and the space between each letter.
+  3. Add some border and colors to an button.
+  4. On Hover, the button should change the size and the color
+  5. The navigation bar should be displayed beside as a row, the list-style and underline should be deleted and the colors should be changed. Also add some space on it.
+  6. Add some Hover to each List Item, for example change the colors.
+  7. The table should have borders on each side and the text should be centered. The table head should have an different background color. If you have problems with the borders, read the documentation.
+  8. The navigation bar and the table should be centered.-->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CSS task 2</title>
+      <style>
+          .first{
+              font-size: 50px;
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              font-style: italic;
+              text-transform: uppercase;
+                }
+          p{
+              text-decoration: solid underline;
+              font-size: 75px;
+              letter-spacing: 10px;
+          }
+          #button{
+              padding:40px;
+              margin:20px auto;
+              margin-right:1000px;
+              border:15px solid yellow;
+              border-radius: 20px;
+              background-color: tomato;
+              text-align: center;
+              text-decoration:none;
+              color: black;
+            }
+          #button:hover{
+              padding:30px;
+              background-color: yellow;
+              border:20px solid tomato;
+              font-weight: bold;
+            }
+          .list{
+              list-style-type: none;
+              margin:0 auto;
+              height:auto;
+              width:300px;
+             }
+          ul li{
+              display: inline-block;
+              margin: 10px auto;
+          }
+          li{
+              background-color: turquoise;
+              margin: 20px;
+              border:10px solid 
+            }
+          li:hover{background-color: tomato;
+                   border:25px solid turquoise
+          }
+          table{
+              padding:30px;
+              border-collapse: collapse;
+              margin:0 auto;
+              height:auto;
+              width:300px;
+
+             }
+          th, td{
+              border:5px solid;
+              text-align: center;
+            }
+            th{
+                background-color: tomato;
+            }
+
+          
+
+
+
+
+
+
+
+
+
+      </style>
+
+  </head>
+  <body>
+      <div class="first">
+        hier ist das erste div
+    </div>
+      <p>
+          Hier ist das erste paragraph
+      </p>
+      <a id="button" href="http://www.google.com" target="_blank">
+          click mich</a>=>
+      </div>
+    <ul class="list">
+        <li>
+            Ertser
+        </li>
+        <li>
+            Zweiter
+        </li>
+        <li>
+            Dritter
+        </li>
+        <li>
+            Vierter
+        </li>
+    </ul>
+    <table>
+        <tr>
+        <th>
+            Eins
+        </th>
+        <th>
+            Zwei
+        </th>
+    </tr>
+    <tr>
+        <td>
+            1.
+        </td>
+        <td>
+            2.
+        </td>
+    </tr>
+
+
+
+    </table>
+      
+  </body>
+  </html>
