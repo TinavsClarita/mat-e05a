@@ -1,0 +1,335 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1300px;
+    box-sizing: border-box;
+}
+body html {
+    height: 100%;
+}
+.bg {
+    background-image: url("2116.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.nav-flex{ 
+    display: flex;
+}
+.nav-flex-left{
+    flex:1;
+}
+.nav-flex-right{
+    flex:1;
+    text-align: right;
+    margin-right: 50px;
+}
+.navigation-bar{
+    list-style-type: none;
+    width: 100%;
+    height: 80%;
+}
+#logo-nav{
+    width: 100px;
+    height: auto;
+    border-radius: 250px;
+    opacity: 0.9;
+    border: 2px solid #e69808f3 ;
+    margin-left: 100px;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.first-hover, td a, th a, #album-link, #logo-nav, .hover-bottom{
+    text-decoration: none;
+    color: white;
+    cursor: url("The Moon.cur"), default;    
+}
+.first-hover{
+    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin: 40px 20px;
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+    font-weight: bold;
+}
+.first-hover:hover, .hover-bottom:hover{
+    border-color: #e69808f3;
+    color: black;
+    border: 2px solid #e69808f3;
+    background-color: #d47911;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.first-hover-title:hover{ 
+    color: black;
+    border: 2px solid #e69808f3;
+    background-color: #d47911;
+    border-radius: 30px;
+    font-size: 32px;
+}
+.all-h1, .all-h2, .all-h3{
+    text-align: center;
+    
+}
+.all-h1{
+    color: white;
+    font-size: 70px;
+}
+.all-h2{
+    color: white;
+    font-size: 25px;
+}
+.all-h3{
+    color: white;
+    font-size: 15px;
+}
+.first-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-flex-left{
+    flex:1;
+}
+#pic-xxx{
+    border-radius: 250px;
+    margin: 20px auto;
+    width: 300px;
+}
+#name-alone{
+    text-align: center;
+    color: white;
+}
+p {
+    color: white;
+    text-align: center;
+}
+.first-flex-center{
+    flex: 3;
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+}
+#pic-xxx{
+    margin-left: 50px;
+}
+.first-flex-right{
+    flex:1;
+}
+#logo-first-flex{
+    border-radius: 250px;
+    width: 300px;
+    margin: 20px;
+}
+table{
+    width: auto;
+    border: 3px solid #ffffff3f;
+    border-collapse: collapse;
+}
+th{
+    width: 1000px;
+    height: 150px;
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+th, td{
+    border: 3px solid #ffffff07;
+    border-collapse: collapse;
+}
+td{
+    height: 35px;
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+}
+a th{
+    font-size: 30px;
+}
+.second-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-flex-left{
+    color: white;
+    flex:1;
+    margin: auto auto;
+    font-size: 25px;
+    font-family: "source code pro", monospace;
+    text-transform: uppercase;
+    text-align: center;
+}
+.second-flex-right{
+    flex:2;
+    border: 4px solid #d47911;
+    background-color: #d47911;
+    margin-top: 5px;
+
+}
+.sub-flex-logo{
+    width:30%;
+    border-radius: 250px;
+    opacity: 0.9;
+    border: 2px solid ;
+}
+.second-hover:hover{
+    border-color: #e69808f3;
+    color: black;
+    border: 4px solid #d47911;
+    background-color: #d47911;
+    border-radius: 250px;
+    font-size: 30px;
+}
+.sub-flex{
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.interflex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.initial-color{
+    color: #d47911;
+}
+.interflex1{
+    flex:1;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.interflex2{
+    flex:1;
+    color: white;
+    margin-right: 20px;
+}
+.pic-drifter{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.float{
+    float: left;
+}
+#allalone{
+    color: white;
+    text-align: center;
+}
+.flexabout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexabout-L{
+    flex: 1;
+    justify-content: center;
+}
+.flexabout-R{
+    flex: 1;
+    justify-content: center;
+}
+.navigation-bottom{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.bottom-flex-left{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.bottom-flex-center{
+    flex:2;
+    text-align: center;
+}
+.bottom-flex-right{
+    flex:1;
+    text-align: center;
+}
+button { 
+    background-color: #d47911;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px; 
+    height: 100px;
+    align-content: space-around;
+    padding-left: 50px;
+}  
+.fa-facebook {   
+    color: #d47911;
+} 
+.fa-instagram {    
+    color: #d47911;  
+} 
+.fa:hover, button:hover{  
+    opacity: 0.9;  
+}   
+#logo-nav-bottom{
+    width: 100px;
+    height: 100px;
+    border-radius: 250px;
+    opacity: 0.9;
+    border: 2px solid #e69808f3 ;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -50px;
+}
+.hover-bottom{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-left: 50px;
+}
+@media(max-width:1024px){
+    *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .interflex, h3{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+@media(max-width:480px){
+    *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #logo-first-flex, #pic-xxx, #pic-drifter{
+        display: none;
+    }
+    .second-flex, .interflex, .flexabout{
+        flex-direction: column;
+    }
+    .interflex, h3{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+@media(max-width:1600px){
+    .first-flex{
+        flex-direction: column;
+    }
+}

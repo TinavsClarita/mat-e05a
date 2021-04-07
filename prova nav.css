@@ -1,0 +1,153 @@
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-family: cursive;
+    background-color: black;
+    
+   }
+​
+.flex-1  li{
+    color: rgb(0, 0, 0);
+    list-style: none;
+    align-content: flex-end;
+    font-family: cursive;
+}
+.flex-1 {
+    margin-bottom: -25px;
+}
+​
+.flex-1 h1{
+    color: seagreen;
+    font-family:cursive;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(255, 254, 254);
+    margin: 0px;
+    
+}
+.click-me {
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap;
+    background-color: rgb(233, 85, 17);
+    padding: 50px;
+    border: 5px black solid;    
+}
+.click-me li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 200px;
+    border: 3px solid rgb(4, 184, 94);
+    height: 150px;
+}
+.click-1, .click-2, .click-3 {
+    background-color: rgb(45, 70, 214);  
+}
+​
+.navi ul{
+    list-style: none;
+    background-color: thistle;
+    border: 2px solid rgb(233, 5, 5);
+    text-transform: uppercase;
+    font-family: fantasy;
+    text-align: right;
+    }
+.navi li {
+    display: inline-block;
+    }
+.navi a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin: 0px 10px;
+}
+.navi a:hover{
+    background-color: rgb(240, 16, 16);
+}
+.click-1:hover{
+    background-color: cornflowerblue;
+    border: 5px solid rgb(20, 21, 22);
+}
+.click-2:hover{
+    background-color: cornflowerblue;
+    border: 5px solid rgb(20, 21, 22);
+}
+.click-3:hover{
+    background-color: cornflowerblue;
+    border: 5px solid rgb(20, 21, 22);
+}
+.sectiontable{
+    display: flex;
+    background-color: rgb(150, 101, 101);
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+  
+}
+.leologo {
+    flex: 1;
+    border-collapse: collapse;
+    margin: 20px 20px;
+}
+.leologo img{
+    border: 5px solid rgb(10, 14, 12);
+    margin-left: 200px;
+}
+.tableright {
+   flex: 1; 
+}
+.tableright table{
+    margin: 0px auto;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tableright table, .tableright table td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.firstraw{
+    background-color: chocolate;
+}
+​
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.newlist{ 
+    list-style: none;
+    text-align: center;
+}
+.newlist li{
+    display: inline-block;
+    color: darkblue;
+    background-color: lightblue;
+    margin: 0px 30px;
+    padding: 15px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+}
+.newlist li:hover{
+    background-color: rgb(76, 76, 87);
+    color: rgba(173, 216, 230, 0.315);
+    border: 2px solid lightblue
+}
+.newlist li a{
+    text-decoration: none;
+    color:darkblue;
+}
+body {
+    
+    
+}
